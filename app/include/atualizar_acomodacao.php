@@ -1,3 +1,10 @@
+<?php
+@session_start();
+include_once '../colaborador/validar.php';
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 

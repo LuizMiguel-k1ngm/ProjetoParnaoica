@@ -16,3 +16,21 @@ Capacidade: 2
 Valor: R$500.00
 ----------------------------
 
+Cadastrado em: 30/04/2026 as 09:21:14
+Editados Por:
+Nome da acomodação: Suíte Canada
+Tipo: suíte
+Status: A
+Capacidade: 2
+Valor: R$500.00
+----------------------------
+
+Cadastrado em: 12/05/2026 as 13:28:46
+Editados Por:funcionario2
+Nome da acomodação: Suíte Oracle
+Tipo: 
+Status: A
+Capacidade: 1
+Valor: R$250.00
+----------------------------
+

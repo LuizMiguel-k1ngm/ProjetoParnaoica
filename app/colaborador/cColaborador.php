@@ -1,4 +1,6 @@
 <?php
+
+
 if (!empty($_GET["idCargo"])) {
     $idCargo = $_GET["idCargo"];
 

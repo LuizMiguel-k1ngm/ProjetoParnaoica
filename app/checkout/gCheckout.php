@@ -1,5 +1,6 @@
 <?php
-@session_start();
+// include_once '../colaborador/verificarlogin.php';
+// include_once '../colaborador/validar.php';
 include_once '../_config/conn.php';
 date_default_timezone_set("America/Sao_Paulo");
 
@@ -9,6 +10,8 @@ $data_atual = date('Y-m-d');
 
 //puxar o id do cliente 
 //depois dar update no cliente para Status de Inativo 
+
+
 
 
 

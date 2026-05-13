@@ -1,5 +1,11 @@
 <?php
-    require('../_config/conn.php');
+
+@session_start();
+include_once '../colaborador/validar.php';
+
+require('../_config/conn.php');
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,27 +23,27 @@
     <form action="cadastro_itensFrigobar.php" method="post">
 
         Código da reserva: <br><select name="idReserva">
-            <?php 
-                $sqlConsultaReserva = "SELECT idReserva, idAcomodacao FROM reserva WHERE rstatus = 'CI'";
-                $queryConsultaReserva = mysqli_query($con, $sqlConsultaReserva);
+            <?php
+            $sqlConsultaReserva = "SELECT idReserva, idAcomodacao FROM reserva WHERE rstatus = 'CI'";
+            $queryConsultaReserva = mysqli_query($con, $sqlConsultaReserva);
 
-                while($row = mysqli_fetch_assoc($queryConsultaReserva)) { ?>
-            <option value=<?= $row['idReserva'] ?>><?= $row['idReserva']?> </option>
-            <?php }?>
+            while ($row = mysqli_fetch_assoc($queryConsultaReserva)) { ?>
+                <option value=<?= $row['idReserva'] ?>><?= $row['idReserva'] ?> </option>
+            <?php } ?>
             ?>
         </select>
         <br><br>
 
 
         <select name="idItens">
-            <?php 
-                $sqlConsultaItens = "SELECT idItens, nome, valor FROM itens";
-                $queryConsultaItens = mysqli_query($con, $sqlConsultaItens);
+            <?php
+            $sqlConsultaItens = "SELECT idItens, nome, valor FROM itens";
+            $queryConsultaItens = mysqli_query($con, $sqlConsultaItens);
 
-                while($row = mysqli_fetch_assoc($queryConsultaItens)) { ?>
-            <option value=<?= $row['idItens'] ?>><?= $row['nome']?> | R$<?= $row['valor']?> </option>
+            while ($row = mysqli_fetch_assoc($queryConsultaItens)) { ?>
+                <option value=<?= $row['idItens'] ?>><?= $row['nome'] ?> | R$<?= $row['valor'] ?> </option>
 
-            <?php }?>
+            <?php } ?>
 
 
             ?>
@@ -57,8 +63,8 @@
 
 
         <input type="submit" value="Enviar" /> <br>
-        
-        <?php include '../itens_frigobar/gItens_Frigobar.php'?>
+
+        <?php include '../itens_frigobar/gItens_Frigobar.php' ?>
 
     </form>
     <br><br>

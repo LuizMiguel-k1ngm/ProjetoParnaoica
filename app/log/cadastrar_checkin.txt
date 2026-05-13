@@ -35,3 +35,39 @@ Numero da reserva: 6
 Status: confirmar
 ----------------------------
 
+Cadastrado em: 30/04/2026 as 08:52:44
+Editados Por:funcionario2
+Numero da reserva: 13
+Status: confirmar
+----------------------------
+
+Cadastrado em: 12/05/2026 as 13:43:03
+Editados Por:funcionario2
+Numero da reserva: 6
+Status: confirmar
+----------------------------
+
+Cadastrado em: 12/05/2026 as 13:49:27
+Editados Por:
+Numero da reserva: 6
+Status: confirmar
+----------------------------
+
+Cadastrado em: 12/05/2026 as 13:55:13
+Editados Por:funcionario2
+Numero da reserva: 6
+Status: confirmar
+----------------------------
+
+Cadastrado em: 12/05/2026 as 14:04:13
+Editados Por:
+Numero da reserva: 6
+Status: confirmar
+----------------------------
+
+Cadastrado em: 12/05/2026 as 14:07:00
+Editados Por:
+Numero da reserva: 6
+Status: confirmar
+----------------------------
+

@@ -1,4 +1,10 @@
 <?php
+
+@session_start();
+include_once '../colaborador/validar.php';
+
+
+
 include_once "../deshbord/consulta_lucro.php";
 ?>
 <!DOCTYPE html>

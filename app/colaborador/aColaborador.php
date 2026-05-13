@@ -1,5 +1,6 @@
 <?php
 
+
 include_once '../_config/conn.php';
 
 $idFuncionario = $_POST["idFuncionario"] ?? null;

@@ -25,3 +25,21 @@ Email: pele@gmail.com
 Telefone: 21999998885
 ----------------------------
 
+Cadastrado em: 30/04/2026 as 08:51:31
+Editados Por:funcionario2
+Nome cliente: Felipe souza
+Data de nascimento: 05-06-1977
+CPF: 00000000012
+Email: felipe.souza@exemplo.com
+Telefone: 21999999978
+----------------------------
+
+Cadastrado em: 30/04/2026 as 09:18:30
+Editados Por:
+Nome cliente: Luiz Miguel Gomes
+Data de nascimento: 03-09-1992
+CPF: 00000000018
+Email: luizmigueldasilvagomes3@gmail.com
+Telefone: 21999999998
+----------------------------
+

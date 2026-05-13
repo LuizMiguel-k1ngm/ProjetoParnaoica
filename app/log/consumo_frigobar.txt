@@ -22,3 +22,35 @@ Quantidade: 2
 Valor R$: 10.00
 ----------------------------
 
+Cadastrado em: 30/04/2026 as 08:53:26
+Editados Por:adm2
+Número da reserva: 14
+Id do item: 2
+Quantidade: 5
+Valor R$: 5.00
+----------------------------
+
+Cadastrado em: 30/04/2026 as 08:53:30
+Editados Por:adm2
+Número da reserva: 13
+Id do item: 1
+Quantidade: 5
+Valor R$: 10.00
+----------------------------
+
+Cadastrado em: 30/04/2026 as 08:56:07
+Editados Por:adm2
+Número da reserva: 12
+Id do item: 2
+Quantidade: 5
+Valor R$: 5.00
+----------------------------
+
+Cadastrado em: 30/04/2026 as 08:56:11
+Editados Por:adm2
+Número da reserva: 11
+Id do item: 3
+Quantidade: 5
+Valor R$: 15.00
+----------------------------
+

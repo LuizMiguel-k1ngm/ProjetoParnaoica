@@ -1,4 +1,7 @@
 <?php
+@session_start();
+include_once '../colaborador/validar.php';
+
 require('../_config/conn.php');
 ?>
 
