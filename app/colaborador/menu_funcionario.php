@@ -24,22 +24,6 @@ include './validar.php'
         background-position: center;
         width: 100vh;
         height: 100vh;
-
-    }
-
-
-
-    #navbar {
-        background-color: #6b8184;
-
-    }
-
-    #nome {
-        color: white;
-        font-family: fantasy;
-        font-size: 25px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        color: #01c53c;
     }
 
     #mf{
@@ -52,6 +36,7 @@ include './validar.php'
 
 
 <body class="container-fluid ">
+
 
 
     <div id="mf">

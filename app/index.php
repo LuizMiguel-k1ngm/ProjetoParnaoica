@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 
+
 </head>
 
 <style>
@@ -24,10 +25,7 @@
 
   }
 
-  #navbar {
-    background-color: #6b8184;
-
-  }
+ 
   #form{
     display: grid;
     justify-content: center;
@@ -54,7 +52,10 @@
 
         <br>
 
+
       </form>
+
+
 
       <?php
       if (!empty($_GET["msg"])) {
@@ -64,6 +65,10 @@
 
 
       ?>
+
+
+
+
 
     </div>
   </div>
