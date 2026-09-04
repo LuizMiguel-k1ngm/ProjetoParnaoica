@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 
-
 </head>
 
 <style>
@@ -41,17 +40,6 @@
 <body>
   <div>
 
-    <nav class="navbar" id="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" id="nome" href="../colaborador/painel.php">PARNAOICA</a>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" aria-label="Search" />
-          <button class="btn btn-online-success" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
-
     <div class="container " id="form">
       <h1>BEM-VINDO COLABORADOR</h1>
       <form action="colaborador/verificarlogin.php" method="post">
@@ -66,10 +54,7 @@
 
         <br>
 
-
       </form>
-
-
 
       <?php
       if (!empty($_GET["msg"])) {
@@ -79,10 +64,6 @@
 
 
       ?>
-
-
-
-
 
     </div>
   </div>

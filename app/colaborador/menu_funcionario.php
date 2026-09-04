@@ -53,15 +53,6 @@ include './validar.php'
 
 <body class="container-fluid ">
 
-    <nav class="navbar" id="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" id="nome" href="painel.php" >PARNAOICA</a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" aria-label="Search" />
-                <button class="btn btn-online-success" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
 
     <div id="mf">
 
