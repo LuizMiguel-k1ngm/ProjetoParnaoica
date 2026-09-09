@@ -29,13 +29,13 @@ if (mysqli_num_rows($result) === 1) {
 
     } else {
 
-        $msg = "Senha incorreta!";
+        $msg = "Usuario ou senha incorreta!";
         header("location:../index.php?msg=" . urlencode($msg));
         exit();
     }
 } else {
     
-    $msg = "Usuário não encontrado!";
+    $msg = "Usuário ou senha incorreta!";
     header("location:../index.php?msg=" . urlencode($msg));
     exit();
 }
