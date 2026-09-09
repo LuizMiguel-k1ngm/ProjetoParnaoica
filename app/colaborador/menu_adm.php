@@ -9,8 +9,11 @@ include './validar.php'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
     <title>Document</title>
 </head>
 
@@ -54,20 +57,23 @@ include './validar.php'
 
 
             <a class="btn btn-success p-1 m-1" href="../include/cadastro_frigobar.php">Cadastrar Frigobar</a>
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_kit_frigobar.php">Cadastrar itens do frigobar</a>
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_itensFrigobar.php">Cadastrar Consumo do frigobar</a>
+            <a class="btn btn-success p-1 m-1" href="../include/cadastro_kit_frigobar.php">Cadastrar itens do
+                frigobar</a>
+            <a class="btn btn-success p-1 m-1" href="../include/cadastro_itensFrigobar.php">Cadastrar Consumo do
+                frigobar</a>
             <a class="btn btn-success p-1 m-1" href="../include/cadastro_colaborador.php">Cadastrar Colaborador</a>
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_login_colaborador.php">Cadastrar acesso do colaborador</a>
+            <a class="btn btn-success p-1 m-1" href="../include/cadastro_login_colaborador.php">Cadastrar acesso do
+                colaborador</a>
             <br>
             <h6>RELATÓRIOS:</h6>
             <a class="btn btn-success p-1 m-1" href="../include/relatorio.php" tipe="button">Relatórios</a>
 
 
             <br>
-            <h6>DESHBORD:</h6>
+            <h6>DASHBORD:</h6>
 
-            <a class="btn btn-success p-1 m-1" href="../include/deshbord.php">Deshbord</a>
-    
+            <a class="btn btn-success p-1 m-1" href="../include/deshbord.php">Dashbord</a>
+
             <a class="btn btn-success p-1 m-1 mt-5" href="../index.php">Sair</a>
 
         </div>

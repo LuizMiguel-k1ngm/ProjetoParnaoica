@@ -42,7 +42,7 @@ include_once "../deshbord/consulta_lucro.php";
 
         <hr>
 
-        <canvas id="meuGrafico" ></canvas>
+        <canvas id="meuGrafico"></canvas>
     </div>
 
     <script>
