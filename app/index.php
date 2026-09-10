@@ -162,12 +162,12 @@
 
         <div class="login-card">
 
-            <!-- Ícone -->
+            
             <div class="login-icon">
                 <i class="bi bi-person-fill"></i>
             </div>
 
-            <!-- Título -->
+            
             <h1 class="login-title">
                 Bem-vindo, colaborador
             </h1>
@@ -176,13 +176,13 @@
                 Entre com suas credenciais para continuar
             </p>
 
-            <!-- Formulário -->
+           
             <form
                 action="colaborador/verificarlogin.php"
                 method="post"
             >
 
-                <!-- Login -->
+             
                 <div class="mb-3">
 
                     <label
@@ -212,7 +212,7 @@
 
                 </div>
 
-                <!-- Senha -->
+            
                 <div class="mb-4">
 
                     <label
@@ -242,7 +242,7 @@
 
                 </div>
 
-                <!-- Botão -->
+                
                 <button
                     type="submit"
                     class="btn btn-primary btn-login w-100"
@@ -253,7 +253,6 @@
 
             </form>
 
-            <!-- Mensagem PHP -->
             <?php
 
             if (!empty($_GET["msg"])) {
@@ -274,9 +273,8 @@
 
             ?>
 
-            <!-- Rodapé -->
             <div class="login-footer">
-                Sistema de Gestão de Colaboradores
+                Sistema de Gestão para Colaboradores
             </div>
 
         </div>
