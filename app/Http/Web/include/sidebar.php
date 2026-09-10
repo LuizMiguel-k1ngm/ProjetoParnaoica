@@ -47,7 +47,7 @@
 
 
         <a
-            href="../include/consultar_acomodacao.php"
+            href="../consulta/acomodacao.php"
             class="sidebar-item"
             title="Acomodações"
         >
@@ -57,7 +57,7 @@
 
 
         <a
-            href="../include/consultar_colaborador.php"
+            href="../consulta/colaborador.php"
             class="sidebar-item"
             title="Colaboradores"
         >
@@ -75,7 +75,7 @@
 
 
         <a
-            href="../include/cadastro_frigobar.php"
+            href="../cadastrar/frigobar.php"
             class="sidebar-item"
             title="Frigobar"
         >
@@ -85,7 +85,7 @@
 
 
         <a
-            href="../include/cadastro_kit_frigobar.php"
+            href="../cadastrar/kit_frigobar.php"
             class="sidebar-item"
             title="Kit frigobar"
         >
@@ -95,7 +95,7 @@
 
 
         <a
-            href="../include/cadastro_colaborador.php"
+            href="../cadastrar/colaborador.php"
             class="sidebar-item"
             title="Colaborador"
         >
