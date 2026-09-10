@@ -1,4 +1,4 @@
-```php
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -13,14 +13,12 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-        crossorigin="anonymous"
-    >
+        crossorigin="anonymous">
 
     <!-- Bootstrap Icons -->
     <link
         rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    >
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <!-- JavaScript -->
     <script
@@ -162,12 +160,12 @@
 
         <div class="login-card">
 
-            
+
             <div class="login-icon">
                 <i class="bi bi-person-fill"></i>
             </div>
 
-            
+
             <h1 class="login-title">
                 Bem-vindo, colaborador
             </h1>
@@ -176,19 +174,16 @@
                 Entre com suas credenciais para continuar
             </p>
 
-           
+
             <form
                 action="colaborador/verificarlogin.php"
-                method="post"
-            >
+                method="post">
 
-             
+
                 <div class="mb-3">
-
                     <label
                         for="login"
-                        class="form-label"
-                    >
+                        class="form-label">
                         Login
                     </label>
 
@@ -205,20 +200,18 @@
                             name="login"
                             placeholder="Digite seu login"
                             autocomplete="username"
-                            required
-                        >
+                            required>
 
                     </div>
 
                 </div>
 
-            
+
                 <div class="mb-4">
 
                     <label
                         for="senha"
-                        class="form-label"
-                    >
+                        class="form-label">
                         Senha
                     </label>
 
@@ -235,18 +228,16 @@
                             name="senha"
                             placeholder="Digite sua senha"
                             autocomplete="current-password"
-                            required
-                        >
+                            required>
 
                     </div>
 
                 </div>
 
-                
+
                 <button
                     type="submit"
-                    class="btn btn-primary btn-login w-100"
-                >
+                    class="btn btn-primary btn-login w-100">
                     <i class="bi bi-box-arrow-in-right me-2"></i>
                     Entrar
                 </button>
@@ -284,4 +275,3 @@
 </body>
 
 </html>
-```
