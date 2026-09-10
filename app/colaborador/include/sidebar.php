@@ -27,7 +27,7 @@
 
 
         <a
-            href="../include/consultar_frigobar.php"
+            href="../Http/Web/consulta/frigobar.php"
             class="sidebar-item"
             title="Frigobar"
         >
