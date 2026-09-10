@@ -1,83 +1,204 @@
 <?php
-include './validar.php'
+
+include './validar.php';
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-    </script>
-    <title>Document</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <title>Menu Administrativo</title>
+
+
+    <style>
+
+        html,
+        body {
+
+            min-height: 100%;
+
+            margin: 0;
+
+        }
+
+
+        body {
+
+            min-height: 100vh;
+
+            background-image:
+                url('../../src/img/a-minimalist-digital-illustration-featur_DhicowWLWH6FxqapvhoEtQ_FqyHqyrGTtWEKy66pQ3xOg_sd.jpeg');
+
+            background-size: cover;
+
+            background-repeat: no-repeat;
+
+            background-position: center;
+
+        }
+
+
+        .layout {
+
+            display: flex;
+
+            min-height: calc(100vh - 56px);
+
+        }
+
+
+        .sidebar-container {
+
+            flex-shrink: 0;
+
+            min-height: calc(100vh - 56px);
+
+        }
+
+        .conteudo {
+
+            flex: 1;
+
+            min-width: 0;
+
+            min-height: calc(100vh - 56px);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding: 30px;
+
+        }
+
+        .menu-card {
+
+            width: 100%;
+
+            max-width: 900px;
+
+            padding: 40px;
+
+            background-color:
+                rgba(255, 255, 255, 0.92);
+
+            border-radius: 15px;
+
+            box-shadow:
+                0 4px 20px rgba(0, 0, 0, 0.25);
+
+        }
+
+
+        @media (max-width: 768px) {
+
+            .layout {
+
+                flex-direction: column;
+
+            }
+
+
+            .sidebar-container {
+
+                width: 100%;
+
+            }
+
+
+            .conteudo {
+
+                padding: 15px;
+
+            }
+
+        }
+
+    </style>
+
 </head>
 
-<style>
-    body {
-        background-image: url(../../img/a-minimalist-digital-illustration-featur_DhicowWLWH6FxqapvhoEtQ_FqyHqyrGTtWEKy66pQ3xOg_sd.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
 
-    }
+<body>
 
 
+    <?php
+
+    include 'include/navbar.php';
+
+    ?>
 
 
-    #ma {
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
-</style>
-
-<body class="container-fluid">
-    <div>
-
-        <br>
-        <div id="ma">
-
-            <h3>MENU ADM: </h3>
+    <div class="layout">
 
 
-            <br><br>
-            <h6>CONSULTAS:</h6>
-            <a class="btn btn-success p-1 m-1" href="../include/consultar_frigobar.php">Consultar frigobar</a>
-            <a class="btn btn-success p-1 m-1" href="../include/consultar_cliente.php">Consultar cliente</a>
-            <a class="btn btn-success p-1 m-1" href="../include/consultar_acomodacao.php">Consultar acomodação</a>
-            <a class="btn btn-success p-1 m-1" href="../include/consultar_colaborador.php">Consultar colaborador</a>
-            <br>
+        <div class="sidebar-container">
 
-            <h6>CADASTROS: </h6>
+            <?php
 
+            include 'include/sidebar.php';
 
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_frigobar.php">Cadastrar Frigobar</a>
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_kit_frigobar.php">Cadastrar itens do
-                frigobar</a>
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_itensFrigobar.php">Cadastrar Consumo do
-                frigobar</a>
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_colaborador.php">Cadastrar Colaborador</a>
-            <a class="btn btn-success p-1 m-1" href="../include/cadastro_login_colaborador.php">Cadastrar acesso do
-                colaborador</a>
-            <br>
-            <h6>RELATÓRIOS:</h6>
-            <a class="btn btn-success p-1 m-1" href="../include/relatorio.php" tipe="button">Relatórios</a>
-
-
-            <br>
-            <h6>DASHBORD:</h6>
-
-            <a class="btn btn-success p-1 m-1" href="../include/deshbord.php">Dashbord</a>
-
-            <a class="btn btn-success p-1 m-1 mt-5" href="../index.php">Sair</a>
+            ?>
 
         </div>
+
+
+        <main class="conteudo">
+
+            <div class="menu-card text-center">
+
+                <h3 class="mb-4">
+                    Menu Administrativo
+                </h3>
+
+                <p class="text-muted mb-0">
+
+                    Utilize o menu lateral ou a barra
+                    de navegação para acessar as
+                    funcionalidades do sistema.
+
+                </p>
+
+            </div>
+
+        </main>
+
+
     </div>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous">
+    </script>
+
+
 </body>
 
 </html>
+
