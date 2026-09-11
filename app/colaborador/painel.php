@@ -11,18 +11,16 @@ include_once './validar.php';
 
 <body>
 
-    <?php  $_SESSION["login"]; ?>
+    <?php $_SESSION["login"]; ?>
 
-    <?php 
-   
+    <?php
+
     if ($_SESSION["idCargo"] == 1) {
         include_once 'menu_adm.php';
-    } 
-    elseif ($_SESSION["idCargo"] == 2) {
+    } elseif ($_SESSION["idCargo"] == 2) {
 
         include_once 'menu_funcionario.php';
-    } 
-    else {
+    } else {
         echo "Erro: Login não encontrado.";
     }
     ?>
