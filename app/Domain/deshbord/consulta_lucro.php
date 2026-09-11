@@ -1,6 +1,6 @@
 <?php
 
-include '../_config/conn.php';
+include '../Config/conn.php';
 
 $mes_filtro = isset($_GET['mes']) ? $_GET['mes'] : date('m');
 

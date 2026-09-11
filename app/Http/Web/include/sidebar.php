@@ -27,7 +27,7 @@
 
 
         <a
-            href="../consulta/frigobar.php"
+            href="../consulta/frigobar/frigobar.php"
             class="sidebar-item"
             title="Frigobar"
         >
@@ -37,7 +37,7 @@
 
 
         <a
-            href="../consulta/cliente.php"
+            href="../consulta/cliente/cliente.php"
             class="sidebar-item"
             title="Clientes"
         >

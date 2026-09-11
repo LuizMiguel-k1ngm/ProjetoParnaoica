@@ -5,7 +5,7 @@ if (!empty($_GET["tipoAcomodacao"])) {
     $aStatus = $_GET["aStatus"] ?? null;
  
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
 
     $sqli = "select * from parnaoica.acomodacao where tipoAcomodacao like '" . $tipoAcomodacao . "%'  and aStatus  like '" . $aStatus . "%'";

@@ -4,7 +4,7 @@
 $idEstacionamento = $_POST["idEstacionamento"];
 $status = $_POST["status"];
 
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 $sqli = "INSERT INTO parnaoica.estacionamento values(null, '".$status."')";
 

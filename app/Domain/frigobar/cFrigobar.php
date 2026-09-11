@@ -3,7 +3,7 @@
 if (!empty($_GET["fstatus"])) {
     $fstatus = $_GET["fstatus"];
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     $sqli = "select * from frigobar where fstatus like '" . $fstatus . "%'";
 

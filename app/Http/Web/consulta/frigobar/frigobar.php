@@ -1,4 +1,3 @@
-
 <?php
 // Aqui você pode futuramente receber os dados da consulta.
 //
@@ -27,18 +26,15 @@ $status = $_GET['status'] ?? '';
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-        crossorigin="anonymous"
-    >
+        crossorigin="anonymous">
 
     <link
         rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    >
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <title>Consulta de Frigobares</title>
 
     <style>
-
         html,
         body {
             min-height: 100%;
@@ -170,7 +166,6 @@ $status = $_GET['status'] ?? '';
             }
 
         }
-
     </style>
 
 </head>
@@ -195,31 +190,25 @@ $status = $_GET['status'] ?? '';
 
             <div class="menu-card">
 
-                <!-- TÍTULO -->
-
                 <h3 class="titulo text-center">
                     Consulta de Frigobares
                 </h3>
 
 
-                <!-- FILTROS -->
-
                 <form
                     action="consultar_frigobar.php"
                     method="get"
-                    class="filtros"
-                >
+                    class="filtros">
 
                     <div class="row align-items-end g-3">
 
-                        <!-- CAMPO DE PESQUISA -->
+
 
                         <div class="col-md-6">
 
                             <label
                                 for="busca"
-                                class="form-label"
-                            >
+                                class="form-label">
                                 Pesquisar
                             </label>
 
@@ -235,30 +224,27 @@ $status = $_GET['status'] ?? '';
                                     id="busca"
                                     name="busca"
                                     placeholder="Frigobar ou quarto..."
-                                    value="<?= htmlspecialchars($busca) ?>"
-                                >
+                                    value="<?= htmlspecialchars($busca) ?>">
 
                             </div>
 
                         </div>
 
 
-                        <!-- FILTRO DE STATUS -->
+
 
                         <div class="col-md-3">
 
                             <label
                                 for="status"
-                                class="form-label"
-                            >
+                                class="form-label">
                                 Status
                             </label>
 
                             <select
                                 class="form-select"
                                 id="status"
-                                name="status"
-                            >
+                                name="status">
 
                                 <option value="">
                                     Todos
@@ -266,15 +252,13 @@ $status = $_GET['status'] ?? '';
 
                                 <option
                                     value="A"
-                                    <?= $status === 'A' ? 'selected' : '' ?>
-                                >
+                                    <?= $status === 'A' ? 'selected' : '' ?>>
                                     Ativos
                                 </option>
 
                                 <option
                                     value="I"
-                                    <?= $status === 'I' ? 'selected' : '' ?>
-                                >
+                                    <?= $status === 'I' ? 'selected' : '' ?>>
                                     Inativos
                                 </option>
 
@@ -283,14 +267,13 @@ $status = $_GET['status'] ?? '';
                         </div>
 
 
-                        <!-- BOTÃO BUSCAR -->
+
 
                         <div class="col-md-3">
 
                             <button
                                 type="submit"
-                                class="btn btn-primary w-100"
-                            >
+                                class="btn btn-primary w-100">
 
                                 <i class="bi bi-search"></i>
 
@@ -343,21 +326,15 @@ $status = $_GET['status'] ?? '';
 
                                     <tr>
 
-                                        <!-- FRIGOBAR -->
-
                                         <td>
                                             <?= htmlspecialchars($frigobar['frigobar']) ?>
                                         </td>
 
 
-                                        <!-- QUARTO -->
-
                                         <td>
                                             <?= htmlspecialchars($frigobar['quarto']) ?>
                                         </td>
 
-
-                                        <!-- STATUS -->
 
                                         <td>
 
@@ -378,24 +355,21 @@ $status = $_GET['status'] ?? '';
                                         </td>
 
 
-                                        <!-- AÇÕES -->
 
                                         <td class="text-center acoes">
 
-                                            <!-- EDITAR -->
 
                                             <a
                                                 href="editar_frigobar.php?id=<?= urlencode($frigobar['id']) ?>"
                                                 class="btn btn-sm btn-outline-primary"
-                                                title="Editar frigobar"
-                                            >
+                                                title="Editar frigobar">
 
                                                 <i class="bi bi-pencil-square"></i>
 
                                             </a>
 
 
-                                            <!-- INATIVAR / ATIVAR -->
+
 
                                             <?php if ($frigobar['status'] === 'A'): ?>
 
@@ -403,8 +377,7 @@ $status = $_GET['status'] ?? '';
                                                     href="inativar_frigobar.php?id=<?= urlencode($frigobar['id']) ?>"
                                                     class="btn btn-sm btn-outline-danger"
                                                     title="Inativar frigobar"
-                                                    onclick="return confirm('Deseja realmente inativar este frigobar?');"
-                                                >
+                                                    onclick="return confirm('Deseja realmente inativar este frigobar?');">
 
                                                     <i class="bi bi-x-circle"></i>
 
@@ -416,8 +389,7 @@ $status = $_GET['status'] ?? '';
                                                     href="ativar_frigobar.php?id=<?= urlencode($frigobar['id']) ?>"
                                                     class="btn btn-sm btn-outline-success"
                                                     title="Ativar frigobar"
-                                                    onclick="return confirm('Deseja realmente ativar este frigobar?');"
-                                                >
+                                                    onclick="return confirm('Deseja realmente ativar este frigobar?');">
 
                                                     <i class="bi bi-check-circle"></i>
 
@@ -437,8 +409,7 @@ $status = $_GET['status'] ?? '';
 
                                     <td
                                         colspan="4"
-                                        class="sem-registros"
-                                    >
+                                        class="sem-registros">
 
                                         <i class="bi bi-inbox fs-2 d-block mb-2"></i>
 
@@ -472,4 +443,3 @@ $status = $_GET['status'] ?? '';
 </body>
 
 </html>
-

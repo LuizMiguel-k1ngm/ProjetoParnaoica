@@ -3,7 +3,7 @@ date_default_timezone_set("America/Sao_Paulo");
 
 if (!empty($_GET["cpf"])) {
     $cpf = $_GET["cpf"];
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     $data_atual = date('Y-m-d');
 

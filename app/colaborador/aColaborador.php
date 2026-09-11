@@ -1,7 +1,7 @@
 <?php
 
 
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 $idFuncionario = $_POST["idFuncionario"] ?? null;
 $email =  $_POST["email"] ?? null;

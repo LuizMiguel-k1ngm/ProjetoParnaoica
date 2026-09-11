@@ -2,7 +2,7 @@
 require_once '../vendor/autoload.php';
 use Dompdf\Dompdf;
 
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 $data_i = $_GET['data_inicial'] ?? null;
 $data_f = $_GET['data_final'] ?? null;
