@@ -19,7 +19,7 @@ include_once '../colaborador/validar.php';
     <?php
     $numero_quarto = $_GET["numero_quarto"];
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     $sqli = "select * from parnaoica.acomodacao where numero_quarto = " . $numero_quarto;
     $result = mysqli_query($con, $sqli);

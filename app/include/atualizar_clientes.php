@@ -19,7 +19,7 @@ include_once '../colaborador/validar.php';
 
 
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     $sqli = "select * from parnaoica.cliente where idusuario = " . $idusuario;
     $result = mysqli_query($con, $sqli);

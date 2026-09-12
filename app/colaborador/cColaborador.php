@@ -4,7 +4,7 @@
 if (!empty($_GET["idCargo"])) {
     $idCargo = $_GET["idCargo"];
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     $sqli = "select * from parnaoica.funcionario where idCargo like '" . $idCargo . "%'";
 

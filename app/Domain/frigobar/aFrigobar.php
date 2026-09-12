@@ -1,6 +1,6 @@
 <?php
 
- include_once '../_config/conn.php';
+ include_once '../Config/conn.php';
 
     $idFrigobar =  $_POST["idFrigobar"];
     $fstatus =  $_POST["fstatus"];

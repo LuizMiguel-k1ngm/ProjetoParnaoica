@@ -4,7 +4,7 @@
 date_default_timezone_set("America/Sao_Paulo");
 
 date_default_timezone_set("America/Sao_Paulo");
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 $reserva = $_POST['idReserva'] ?? null;
 $idItens = $_POST['idItens'] ?? null;

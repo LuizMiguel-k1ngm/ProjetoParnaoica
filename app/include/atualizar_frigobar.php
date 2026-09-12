@@ -17,7 +17,7 @@ include_once '../colaborador/validar.php';
 
     $idFrigobar = $_GET["idFrigobar"];
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     $sqli = "select * from parnaoica.frigobar where idFrigobar = " . $idFrigobar;
     $result = mysqli_query($con, $sqli);

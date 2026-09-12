@@ -8,7 +8,7 @@ use Dompdf\Options;
 if (!empty($_GET["cStatus"])) {
     $cStatus = $_GET["cStatus"];
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     $sqli = "select * from parnaoica.cliente where cStatus like '" . $cStatus . "%'";
 

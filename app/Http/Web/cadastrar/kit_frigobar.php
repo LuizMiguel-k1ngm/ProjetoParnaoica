@@ -3,7 +3,7 @@
 @session_start();
 include_once '../colaborador/validar.php';
 
-require('../_config/conn.php');
+require('../Config/conn.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

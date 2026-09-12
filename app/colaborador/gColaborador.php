@@ -1,5 +1,5 @@
 <?php
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 
 

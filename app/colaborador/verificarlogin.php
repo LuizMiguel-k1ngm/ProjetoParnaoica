@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 $login = mysqli_real_escape_string($con, $_POST["login"]);
 $senha = $_POST["senha"]; 

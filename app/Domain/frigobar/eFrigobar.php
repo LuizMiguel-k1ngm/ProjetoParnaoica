@@ -2,7 +2,7 @@
 
 $idFrigobar = $_GET["idFrigobar"];
 
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 $sqli = "delete from parnaoica.frigobar where id_frigobar=".$idFrigobar;
 

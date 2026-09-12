@@ -1,6 +1,6 @@
 <?php
 @session_start();
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 date_default_timezone_set("America/Sao_Paulo");
 
 $idusuario = $_POST["idusuario"] ?? null;

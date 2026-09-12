@@ -13,7 +13,7 @@ $valor = $_POST["valor"] ?? null;
 $valor_sem_ponto = str_replace('.', '', $valor);
 $valor = str_replace(',', '.', $valor_sem_ponto);
 
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
 $consulta_numero_quarto = "SELECT * FROM parnaoica.acomodacao WHERE numero_quarto = '" . $numero_quarto . "'";
 $result = mysqli_query($con, $consulta_numero_quarto);

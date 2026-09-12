@@ -21,7 +21,7 @@ $data_formatada = date('d-m-Y', strtotime($data_nascimento));
 
 
 
-include_once '../_config/conn.php';
+include_once '../Config/conn.php';
 
    
 $consultacpf = "SELECT * FROM parnaoica.cliente WHERE cpf = '" . $cpf . "'";

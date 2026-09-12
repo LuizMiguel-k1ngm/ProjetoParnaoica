@@ -9,7 +9,7 @@ if (!empty($_GET["data_inicial"]) && !empty($_GET['data_final'])) {
     $data_inicial = $_GET["data_inicial"];
     $data_final = $_GET['data_final'];
 
-    include_once '../_config/conn.php';
+    include_once '../Config/conn.php';
 
     if($data_inicial > $data_final){
         echo "Erro: A data inicial não pode ser maior que a data final";
